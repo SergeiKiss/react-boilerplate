@@ -1,9 +1,8 @@
-// Example
-
 // import { ReactNode } from "react";
 // import { Route, Routes } from "react-router-dom";
 // import LoginPage from "./pages/Login";
 // import NotFoundPage from "./pages/NotFound";
+// import MainPage from "./pages/Main";
 
 // function App() {
 //   type routeObj = {
@@ -12,17 +11,17 @@
 //   };
 
 //   const router: Array<routeObj> = [
-//     //   {
-//     //     path: "/",
-//     //     element: ???,
-//     //   },
+//     {
+//       path: "/",
+//       element: <MainPage />,
+//     },
 //     {
 //       path: "/login",
-//       element: LoginPage(),
+//       element: <LoginPage />,
 //     },
 //     {
 //       path: "*",
-//       element: NotFoundPage(),
+//       element: <NotFoundPage />,
 //     },
 //   ];
 
